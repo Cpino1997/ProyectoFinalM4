@@ -28,11 +28,10 @@
 	rel="stylesheet"
 	integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 	crossorigin="anonymous">
-<link rel=”icon” href=”favicon.ico” type=”image/x-icon” />
-<link rel=”shortcut icon” href=”favicon.ico” type=”image/x-icon” />
-<style><%@include file="/static/css/estilos.css" %></style>
-<script src="https://kit.fontawesome.com/81a2ed02b0.js"
-	crossorigin="anonymous"></script>
+<link rel="icon" href=”favicon.ico” type=”image/x-icon” />
+<link rel="shortcut icon" href=”favicon.ico” type=”image/x-icon” />
+<style><%@include file="/static/css/estilos.css"%></style>
+<script src="https://kit.fontawesome.com/b6cd2b590e.js" crossorigin="anonymous"></script>
 </head>
 <body onload="saludar()">
 	<header>
@@ -50,8 +49,7 @@
 					<p class="lead mb-4">Plataforma de Gestion para escuelas</p>
 					<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 						<button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-							<a style="text-decoration: none; color: white;"
-								href="#sobreNosotros">Saber Más</a>
+							<a style="text-decoration: none; color: white;" href="#sobreNosotros">Leer Mas</a>
 						</button>
 					</div>
 				</div>

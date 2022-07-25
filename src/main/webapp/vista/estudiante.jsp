@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
@@ -7,11 +6,7 @@
 <title>Curso</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- CSS only -->
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-	crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <style>
 <%@include file="/static/css/estilos.css" %>
 </style>
@@ -71,10 +66,8 @@
 							<button type="reset" class="btn btn-secondary">Limpiar</button>
 						</div>
 						<div class="col-auto">
-							<button type="reset" class="btn btn-success">
-								<a style="text-decoration: none; color: white"
+								<a class="btn btn-success" style="text-decoration: none; color: white"
 									href="${pageContext.request.contextPath}/estudiante">Volver</a>
-							</button>
 						</div>
 					</div>
 				</form>

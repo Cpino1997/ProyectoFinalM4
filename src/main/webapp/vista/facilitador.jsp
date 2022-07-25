@@ -83,10 +83,8 @@
 								<button type="reset" class="btn btn-secondary">Limpiar</button>
 							</div>
 							<div class="col-auto">
-								<button type="reset" class="btn btn-success">
-									<a style="text-decoration: none; color: white"
+									<a class="btn btn-success" style="text-decoration: none; color: white"
 										href="${pageContext.request.contextPath}/facilitador">Volver</a>
-								</button>
 							</div>
 						</div>
 					</form>

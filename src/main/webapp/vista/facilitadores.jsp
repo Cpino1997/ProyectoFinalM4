@@ -20,8 +20,7 @@
 	rel="stylesheet">
 <script
 	src="http://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-<script src="https://kit.fontawesome.com/81a2ed02b0.js"
-	crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/81a2ed02b0.js" crossorigin="anonymous"></script>
 <style>
 <%@include file="/static/css/estilos.css" %>
 </style>

@@ -1,12 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Listado de matriculas</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <!-- CSS only -->
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -28,12 +26,11 @@
 
 </head>
 <body>
-	<div>
 		<header>
 			<%@include file="head.jsp"%>
 		</header>
 		<main>
-			<section class="container-fluid w60">
+		<section class="container-fluid w60">
 				<div class="px-4 py-5 my-5 text-center">
 					<h1 class="centro">Listado de Matriculas</h1>
 					<table class="table table-striped" id="matriculas">
@@ -70,13 +67,11 @@
 							href="${pageContext.request.contextPath}/matricula?op=new">Crear
 							nueva Matricula</a>
 					</div>
+					<small>No logre hacer funcionar esta opcion :c </small>
+				</div>
 			</section>
-	</div>
-
-
-
-	</main>
-	</div>
+			</main>
+			
 	<script>
 $(document).ready( function () {
     $('#matriculas').DataTable();
