@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+	background-color: #bde0fe;
+}
+
+.izquierda {
+	margin: 15px;
+	text-align: right;
+}
+
+.arriba {
+	margin: 5%;
+}
+
+.centro {
+	margin: auto;
+	text-align: center;
+}
+
+.medio {
+	padding: 10% 0;
+}
+
+.derecha {
+	float: right;
+}
+
+.nav-item:hover {
+	background-color: #a2d2ff;
+}
+
+.colorMenu {
+	background-color: #ffafcc;
+}
+
+.papa {
+	padding: 15px;
+}
+
+.w60 {
+	width: 80%;
+	padding: 15px;
+	margin: auto;
+	margin-top: 6%;
+	border-radius: 7px;
+	font-family: monospace;
+	box-shadow: 7px 13px 37px #000;
+}
